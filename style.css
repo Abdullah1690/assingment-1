@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.universal-margin {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.universal-padding {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header-bg {
+  background-image: url(resources/Banner\ Image.png);
+  width: 1320px;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  width: 100%;
+  min-height: 100%;
+}
+
+.header-bg-gradient {
+}
+
+.header-content h1 {
+  color: #fff;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.header-content h3 {
+  text-align: center;
+
+  color: #fff;
+
+  font-family: Merriweather;
+  font-size: 32px;
+
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+/* first-hero-section area css */
+
+.first-hero-section {
+  margin: 120px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-hero-section-content {
+}
+
+.first-hero-section h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.first-hero-section p {
+  color: #f00;
+  text-align: center;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.first-hero-section h3 {
+  color: #070211;
+  text-align: center;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+/* sec-hero-section area css */
+
+.sec-hero-section {
+  background-image: url(resources/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+
+.sec-hero-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec-hero-section-content {
+}
+
+.sec-hero-section-content h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.sec-hero-section-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sec-hero-section-content h3 {
+}
+
+.sec-hero-section-btn {
+}
