@@ -107,7 +107,7 @@
 .sec-hero-section {
   background-image: url(resources/Vectorrr.png);
   width: 1320px;
-  height: 600px;
+  min-height: 600px;
   background-repeat: no-repeat;
   margin-bottom: 120px;
 }
@@ -119,6 +119,7 @@
 }
 
 .sec-hero-section-content {
+  /* width: 697px; */
 }
 
 .sec-hero-section-content h2 {
@@ -139,4 +140,57 @@
 }
 
 .sec-hero-section-btn {
+  padding: 18px 30px;
+}
+
+.sec-hero-section-img {
+  /* width: 319.83px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* third-hero-section */
+
+.third-hero-section {
+  width: 1320px;
+  min-height: 482px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-bottom: 120px;
+}
+
+.third-hero-section-content p {
+  color: #070211;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.red {
+  color: #f00;
+}
+.third-hero-section-btn {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.btn {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
