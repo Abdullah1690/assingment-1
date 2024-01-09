@@ -6,6 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* common css */
+
 .universal-margin {
   margin-left: 100px;
   margin-right: 100px;
@@ -15,7 +17,7 @@
   padding-left: 100px;
   padding-right: 100px;
 }
-
+/* header area css */
 .header-bg {
   background-image: url(resources/Banner\ Image.png);
   width: 1320px;
@@ -456,3 +458,4 @@ footer {
   font-size: 24px;
   font-weight: 500;
 }
+/* the end  */
