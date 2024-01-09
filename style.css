@@ -263,10 +263,42 @@
   margin-left: 100px;
 }
 
+/* holiday section area css */
+
+.holiday-section-img {
+}
+.img-container {
+  display: flex;
+  justify-content: end;
+  margin-bottom: -4px;
+}
+
+.img-parrent {
+  position: relative;
+}
+
+.carpet-img {
+  position: relative;
+}
+
+.surprise-box {
+  position: absolute;
+  width: 547px;
+  bottom: 100px;
+  left: 60px;
+}
+
+.cupon {
+  position: absolute;
+  right: 270px;
+  top: 70px;
+}
+
 /* fivth section area css */
 
 .fivth-section {
   margin-bottom: 120px;
+  margin-top: 120px;
 }
 .fivth-section-content h5 {
   color: #f00;
@@ -282,7 +314,12 @@
   font-weight: 900;
   text-transform: capitalize;
 }
-.fivth-section-content {
+
+.fivth-section-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
 }
 
 .fivth-section-img {
