@@ -419,10 +419,16 @@ footer {
   padding-right: 30px;
 }
 
-.address-contact p {
+.address-contact span {
   color: #fff;
   font-size: 24px;
   font-weight: 500;
+  display: block;
+}
+
+.address-contact span svg {
+  position: relative;
+  top: 6px;
 }
 
 /* social icon area css */
