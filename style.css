@@ -272,7 +272,7 @@
 .img-container {
   display: flex;
   justify-content: end;
-  margin-bottom: -4px;
+  margin-bottom: -8px;
 }
 
 .img-parrent {
